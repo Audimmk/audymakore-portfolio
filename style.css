@@ -565,7 +565,7 @@ p.text{
     }
 
  
-#MJAS,.viewbtn,#turn,#broad,#useless,.sociallinks,.menutop,#iam,#paraNav{
+#MJAS,.viewbtn,#turn,#broad,#useless,.sociallinks,.menutop,#iam,#paraNav,#dcvM{
     display:none;
 }
 @media (max-width:768px){
@@ -668,7 +668,7 @@ p.text{
             padding-top:60px;
             font-size: 30px;
             
-            gap:30px;
+            gap:65px;
         
         }
         .current1{
@@ -737,10 +737,19 @@ p.text{
 
                 
             }
-            #paraNav{
+            #dcvM{
                 display: flex;
-                margin-top:0;
-                color:#B8C2CC;
+                background-color:#00BFFF;
+                justify-content:center;
+                margin-right:35px;
+                border-radius:10px;
+                padding:10px 20px;
+                gap:10px;
+                font-weight:bold;
+
+                div{
+                color:black
+                }
             }
             .links{
                 width:64px;
@@ -1091,6 +1100,8 @@ p.text{
                         order:4;
                         border:none;
                         width:100%;
+                        padding:30px 30px;
+                        
                         
                      }
                      
@@ -1101,6 +1112,7 @@ p.text{
                      .icon{
                         display: flex;
                         flex-direction:column;
+                        gap:1px;
                      }
 
 
