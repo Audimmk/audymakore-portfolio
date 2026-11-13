@@ -740,7 +740,7 @@ p.text{
                 
             }
             #dcvM{
-                display: flex;
+                display:none;
                 background-color:#00BFFF;
                 justify-content:center;
                 margin-right:35px;
